@@ -1,4 +1,5 @@
 <?php
+    //Búsqueda
     if(!isset($_POST['busqueda'])){
         header("Location: index.php");
     }
