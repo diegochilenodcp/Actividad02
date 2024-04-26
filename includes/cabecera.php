@@ -4,7 +4,7 @@
 <html lang ="es">
 <head>
     <meta charset="utf-8" />
-    <title>Blog de noticias</title>
+    <title>Noticias del mundo</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
         <!-- LOGO -->    
         <div id="logo" style="text-align: right;">
             <a href="index1.php">
-                BLOG DE NOTICIAS
+                BLOG DE NOTICIAS....
             </a>
         </div>
         
@@ -34,10 +34,10 @@
                 endif;
                 ?>
                 <li>
-                    <a href="index1.php">Sobre mi</a>
+                    <a href="index1.php">INFO</a>
                 </li>
                 <li>
-                    <a href="index1.php">ContaSctos</a>
+                    <a href="index1.php"></a>
                 </li>
             </ul>
         </nav>

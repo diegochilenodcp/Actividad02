@@ -5,7 +5,7 @@
 <?php require_once 'includes/lateral.php'; ?>        
         <!-- CAJA PRINCIPAL -->
             <div id="principal">
-                 <h1>Todas las noticias</h1>
+                 <h1>MANTENTE INFORMADO SOBRE LAS ULTIMAS NOTICIAS DEL MOMENTO</h1>
                      <?php
                         $entradas = conseguirEntradas($db);
                         if(!empty($entradas)):
