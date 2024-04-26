@@ -5,9 +5,9 @@
 <!-- CAJA PRINCIPAL -->
              
                 <div id="principal">
-                     <h1>Crear entradas</h1>
+                     <h1>Crear noticias</h1>
                      <p>
-                         Añade nuevas entradas al blog para que los usuarios
+                         Añade nuevas infromaciones o noticias al blog para que los usuarios
                          puedan leerlas y disfrutar de su contenido.
                      </p>
                      </br>

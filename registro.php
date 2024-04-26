@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST)){
-    //Cargar la conexión a la BD
+    //Cargar la conexión a la base de datos
 require_once 'includes/conexion.php';
 //Iniciar la sesión
 If(!isset($_SESSION)){

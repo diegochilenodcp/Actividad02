@@ -8,7 +8,7 @@
                      <h1>Crear categorias</h1>
                      <p>
                          Añade nuevas categorías al blog para que los usuarios
-                         puedan usarlas al crear sus entradas.
+                         puedan usarlas al crear sus noticias.
                      </p>
                      </br>
                      <form action="guardar-categoria.php" method="POST">

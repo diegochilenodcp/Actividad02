@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST)){
-    //Conexion a la base de datos
+    //Conexion a la base de datoss
     require_once 'includes/conexion.php';
    
   

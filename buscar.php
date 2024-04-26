@@ -31,7 +31,7 @@
                         else:
                      ?>   
                                   
-                    <div class="alerta">No hay entradas en esta categoría</div>
+                    <div class="alerta">No hay noticias en esta categoría</div>
                     <?php endif; ?>  
                     
             </div> <!--Fin pricipal-->         

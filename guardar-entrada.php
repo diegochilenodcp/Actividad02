@@ -9,7 +9,7 @@ if(isset($_POST)){
 	$categoria = isset($_POST['categoria']) ? (int)$_POST['categoria'] : false;
 	$usuario = $_SESSION['usuario']['id'];
 	
-	// Validación
+	// Validaciónn
 	$errores = array();
 	
 	if(empty($titulo)){

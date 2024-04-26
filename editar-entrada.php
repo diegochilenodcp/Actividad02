@@ -13,9 +13,9 @@
 
 <!-- CAJA PRINCIPAL -->
 <div id="principal">
-	<h1>Editar entrada</h1>
+	<h1>Editar noticia</h1>
 	<p>
-		Edita tu entrada <?=$entrada_actual['titulo']?>
+		Edita tu noticias <?=$entrada_actual['titulo']?>
 	</p>
 	<br/>
 	<form action="guardar-entrada.php?editar=<?=$entrada_actual['id']?>" method="POST">

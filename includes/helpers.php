@@ -108,7 +108,7 @@ function conseguirEntradas($conexion, $limit = null, $categoria = null, $busqued
     //die();
     
     $entradas = mysqli_query($conexion, $sql);
-    //El var_dump me permite ver como está hecha la consulta --MUY UTIL---
+    //El var_dump me permite ver como está hecha la consulta ---MUY UTIL---
     //var_dump($sql);
     //die();
     

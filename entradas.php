@@ -5,7 +5,7 @@
 <?php require_once 'includes/lateral.php'; ?>        
         <!-- CAJA PRINCIPAL -->
             <div id="principal">
-                 <h1>Todas las entradas</h1>
+                 <h1>Todas las noticias</h1>
                      <?php
                         $entradas = conseguirEntradas($db);
                         if(!empty($entradas)):
@@ -26,7 +26,7 @@
                         endif;
                      ?>   
                 <div id="ver-todas">
-                    <a href="entradas.php">Ver todas las entradas</a>
+                    <a href="entradas.php">Ver todas las noticias</a>
                 </div>    
             </div> <!--Fin pricipal-->         
          <div class="clearfix"></div>   

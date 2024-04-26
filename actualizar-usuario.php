@@ -18,7 +18,7 @@ If(!isset($_SESSION)){
     //Array de errores
     $errores = array();
     
-    //Validar los datos antes de guardarlos en la base de datos
+    //Validar los datos antes de guardarlos en la bd
     //Validar nombre
     if(!empty($nombre) && !is_numeric($nombre) && !preg_match("[/0-9/]", $nombre)){
         $nombre_validado = true;

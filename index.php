@@ -7,7 +7,7 @@
         <!-- CAJA PRINCIPAL -->
              
                 <div id="principal">
-                     <h1>Ultimas entradas</h1>
+                     <h1>Ultimas noticias</h1>
                      <?php
                         $entradas = conseguirEntradas($db, true);
                         if(!empty($entradas)):
@@ -33,7 +33,7 @@
                    
                 
                 <div id="ver-todas">
-                    <a href="entradas.php">Ver todas las entradas</a>
+                    <a href="entradas.php">Ver todas las noticias</a>
                 </div>    
             </div> <!--Fin pricipal-->         
          <div class="clearfix"></div>   

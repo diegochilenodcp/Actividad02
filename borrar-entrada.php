@@ -2,7 +2,7 @@
 
  //var_dump($_SESSION['usuario']['id']);
  //var_dump($_GET['id']);
- //           die(); 
+ //           die();;
 
 if(isset($_SESSION['usuario']) && isset($_GET['id'])){
  

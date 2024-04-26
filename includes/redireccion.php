@@ -1,5 +1,5 @@
 <?php
-
+//redirecciona al index una vez iniciada sesion
 if(!isset($_SESSION)){
     session_start();
 }

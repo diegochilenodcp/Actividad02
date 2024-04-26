@@ -3,7 +3,7 @@
   
             <div id="contenedor">
 <?php require_once 'includes/lateral.php'; ?>
-            <!-- CAJA PRINCIPAL -->
+            <!-- CAJA PRINCIPALL -->
             <div id="principal">
                 <h1>Mis Datos</h1>
 
