@@ -24,4 +24,4 @@ if(isset($_POST)){
     }
 }
 
-header('Location: index.php');
+header('Location: index1.php');

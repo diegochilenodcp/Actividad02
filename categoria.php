@@ -3,7 +3,7 @@
 <?php
     $categoria_actual = conseguirCategoria($db, $_GET['id']);
     if(!isset($categoria_actual['id'])){
-        header("Location: index.php");
+        header("Location: index1.php");
     }
 ?>  
 <?php require_once 'includes/cabecera.php'; ?>

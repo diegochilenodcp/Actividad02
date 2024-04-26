@@ -76,7 +76,7 @@ If(!isset($_SESSION)){
         }
     }
     
-    header('Location: index.php');
+    header('Location: portal.php');
 
 
 

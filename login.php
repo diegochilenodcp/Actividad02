@@ -40,5 +40,5 @@ if(isset($_POST)){
 }
  
 //Redirigir al index.php
- Header('Location: index.php');
+ Header('Location: index1.php');
  

@@ -3,7 +3,7 @@
 <?php
     $entrada_actual = conseguirEntrada($db, $_GET['id']);
     if(!isset($entrada_actual['id'])){
-        header("Location: index.php");
+        header("Location: index1.php");
     }
     
 ?>  

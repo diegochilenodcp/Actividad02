@@ -1,24 +1,24 @@
-<?php
-    //Búsqueda
-    if(!isset($_POST['busqueda'])){
-        header("Location: index1.php");
-    }
-     
-?>  
 <?php require_once 'includes/cabecera.php'; ?>
-               <div id="contenedor"> 
-<?php require_once 'includes/lateral.php'; ?>      
-                   <!-- CAJA PRINCIPAL -->
-                   <div id="principal">
-                   <h1>Búsqueda: <?=$_POST['busqueda']?></h1>
+    
+        <div id="contenedor"> 
+        <!-- BARRA LATERAL -->
+<?php require_once 'includes/lateral.php'; ?>        
+        
+        <!-- CAJA PRINCIPAL -->
+             
+                <div id="principal">
+                     <h1>Ultimas noticias</h1>
                      <?php
-                        $entradas = conseguirEntradas($db, null, null, $_POST['busqueda']);
-                        if(!empty($entradas) && mysqli_num_rows($entradas) >= 1):
+                        $entradas = conseguirEntradas($db, true);
+                        if(!empty($entradas)):
                             while($entrada = mysqli_fetch_assoc($entradas)):
+                            
                      ?>
+                                    
                         <article class="entrada">
-                        <a href="entrada.php?id=<?=$entrada['id']?>">
-                         <h2><?= $entrada['titulo']?></h2>
+                            
+                         <a href="entrada.php?id=<?=$entrada['id']?>">
+                         <h2><?=$entrada['titulo']?></h2>
                          <span class="fecha"><?=$entrada['categoria'].' | '.$entrada['fecha']?></span>
                                 <p>
                                     <!--substr Función para limitar la cantidad de caracteres en PHP-->
@@ -28,17 +28,16 @@
                         </article>
                     <?php 
                             endwhile;
-                        else:
+                        endif;
                      ?>   
-                                  
-                    <div class="alerta">No hay noticias en esta categoría</div>
-                    <?php endif; ?>  
-                    
+                   
+                
+                <div id="ver-todas">
+                    <a href="entradas.php">Ver todas las noticias</a>
+                </div>    
             </div> <!--Fin pricipal-->         
-         <div class="clearfix"></div>   
+         <div class="clearfix"></div>   s
     </div> <!---Fin del contenedor--->  
         <!-- PIE DE PAGINA --->
    
 <?php require_once 'includes/pie.php';        
-
-

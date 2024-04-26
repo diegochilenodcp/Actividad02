@@ -38,7 +38,7 @@ if(isset($_POST)){
 		}
 		$guardar = mysqli_query($db, $sql);
 
-		header("Location: index.php");
+		header("Location: index1.php");
 	}else{
 
 		$_SESSION["errores_entrada"] = $errores;

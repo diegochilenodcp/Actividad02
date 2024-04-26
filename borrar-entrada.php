@@ -18,4 +18,4 @@ if(isset($_SESSION['usuario']) && isset($_GET['id'])){
 
 }
 
-header("Location: index.php");
+header("Location: index1.php");

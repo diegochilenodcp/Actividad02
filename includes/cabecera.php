@@ -12,7 +12,7 @@
     <header id="cabecera">
         <!-- LOGO -->    
         <div id="logo" style="text-align: right;">
-            <a href="index.php">
+            <a href="index1.php">
                 BLOG DE NOTICIAS
             </a>
         </div>
@@ -21,7 +21,7 @@
         <nav id="menu">
             <ul>
                 <li>
-                    <a href="index.php">Inicio</a>
+                    <a href="index1.php">Inicio</a>
                 </li>
                 <?php //Se muestran las categorías
                 $categorias = conseguirCategorias($db);
@@ -34,10 +34,10 @@
                 endif;
                 ?>
                 <li>
-                    <a href="index.php">Sobre mi</a>
+                    <a href="index1.php">Sobre mi</a>
                 </li>
                 <li>
-                    <a href="index.php">Contactos</a>
+                    <a href="index1.php">ContaSctos</a>
                 </li>
             </ul>
         </nav>
