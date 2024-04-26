@@ -1,9 +1,9 @@
 <?php
 //Conexión
-$servidor = 'localhost';
+$servidor = 'mysql';
 $usuario_db = 'root';
-$password = 'pro870app0';
-$basededatos = 'blog_master';
+$password = 'root';
+$basededatos = 'blog_db';
 $db = mysqli_connect($servidor, $usuario_db, $password, $basededatos);
 
 mysqli_query($db, "SET NAMES 'utf-8'");

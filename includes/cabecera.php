@@ -14,7 +14,7 @@
         <!-- LOGO -->    
             <div id="logo">
                 <a <a href="index.php">
-                    Blog de Videojuegos
+                    BLOG DE NOTICIAS
                 </a>
             </div>
                

@@ -11,7 +11,7 @@
                          puedan usarlas al crear sus entradas.
                      </p>
                      </br>
-                     <form action="guardar-categoria" method="POST">
+                     <form action="guardar-categoria.php" method="POST">
                          <label for="nombre">Nombre de la categoria:</label>
                          <input type="text" name="nombre" />
                          <input type="submit" value="Guardar" />

@@ -1,7 +1,7 @@
 
     
  <footer id="pie">
-            <p>Desarrollado por Cristian Medina &copy; 2020</p>
+            <p>Proyecto realizado por Diego Chileno Pereira &copy; 2024</p>
         </footer>
      </body>
         

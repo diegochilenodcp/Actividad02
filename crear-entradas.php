@@ -11,7 +11,7 @@
                          puedan leerlas y disfrutar de su contenido.
                      </p>
                      </br>
-                     <form action="guardar-entrada" method="POST">
+                     <form action="guardar-entrada.php" method="POST">
                          <label for="titulo">Título:</label>
                          <input type="text" name="titulo" />
                          <?php echo isset($_SESSION['errores_entrada']) ? mostrarError($_SESSION['errores_entrada'], 'titulo') : ''; ?>
